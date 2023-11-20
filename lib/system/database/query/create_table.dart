@@ -15,6 +15,7 @@ class CreateTable {
       CREATE TABLE ${DatabaseAndTableName.historyTable} (
       history_id INTEGER PRIMARY KEY AUTOINCREMENT,
       grocery_id INTEGER,
+      grocery_name TEXT,
       consumed_date INTEGER NOT NULL,
       next_allowed_date INTEGER NOT NULL,
       is_deleted INTEGER NOT NULL

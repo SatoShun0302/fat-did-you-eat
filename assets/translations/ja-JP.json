@@ -1,0 +1,27 @@
+{
+  "sample": {
+    "title": "多言語化サンプル",
+    "message": "[@:sample.title] ボタンを押した回数: {count}"
+  },
+
+  "pageTitle": {
+    "summary": "概要",
+    "list": "一覧",
+    "register": "登録"
+  },
+
+  "summary": {
+    "startDateInfo": "{startDate} から利用中",
+    "allowedGroceryTitle": "今日飲食してもいいもの",
+    "tipsTitle": "Tips"
+  },
+
+  "item": {
+    "optionOpen": "オプションを開く",
+    "optionClose": "オプションを閉じる"
+  },
+
+  "top": {
+    "header1": "今日飲食してもよいもの"
+  }
+}

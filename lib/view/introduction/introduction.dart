@@ -1,8 +1,10 @@
 import 'package:diet_app/view/introduction/introduction_four_body.dart';
+import 'package:diet_app/view/introduction/introduction_one_body.dart';
 import 'package:diet_app/view/introduction/introduction_three_body.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
+import 'introduction_zero_body.dart';
 import 'introduction_two_body.dart';
 
 class Introduction {
@@ -21,10 +23,19 @@ class Introduction {
       imageAlignment: Alignment.topCenter,
       bodyFlex: 2);
 
+  static PageViewModel introductionZero() {
+    return PageViewModel(
+        title: '',
+        bodyWidget: const IntroductionZeroBody(),
+        image: _buildImage("undraw_Jogging_re_k28i.png"),
+        decoration: pageDecoration,
+        useScrollView: false);
+  }
+
   static PageViewModel introductionOne() {
     return PageViewModel(
         title: '健康のためのダイエットアプリ',
-        body: 'a',
+        bodyWidget: const IntroductionOneBody(),
         image: _buildImage("undraw_Jogging_re_k28i.png"),
         decoration: pageDecoration);
   }

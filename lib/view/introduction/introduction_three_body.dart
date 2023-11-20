@@ -15,20 +15,6 @@ class IntroductionThreeBody extends ConsumerWidget {
     return Column(
       children: [
         Text("リストアップした飲食料品に対して、現状より少ない頻度を設定してみましょう"),
-        // Align(
-        //   alignment: Alignment.topRight,
-        //   child: ElevatedButton(
-        //     style: ButtonStyle(
-        //       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-        //         RoundedRectangleBorder(
-        //           borderRadius: BorderRadius.circular(20), //丸み具合
-        //         ),
-        //       ),
-        //     ),
-        //     onPressed: () => RegisterBottomSheet.showRegisterBottomSheet(context),
-        //     child: const Text("設定完了"),
-        //   ),
-        // ),
         itemList.when(
           data: (itemList) => Column(
             children: [

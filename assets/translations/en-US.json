@@ -1,0 +1,22 @@
+{
+  "sample": {
+    "title": "Sample",
+    "message": "[@:sample.title] put counter button: {count}"
+  },
+
+  "pageTitle": {
+    "summary": "summary",
+    "list": "list",
+    "register": "register"
+  },
+
+  "summary": {
+    "startDateInfo": "start from {startDate}",
+    "allowedGroceryTitle": "What can I eat and drink today?",
+    "tipsTitle": "Tips"
+  },
+
+  "top": {
+    "header1": "What can I eat and drink today?"
+  }
+}

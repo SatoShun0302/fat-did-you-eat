@@ -9,4 +9,10 @@ class InsertRecord {
     '{grocery_name}', {day}, {frequency} 
     );
   """;
+
+  static const String insertHistoryRecord = """
+    INSERT INTO ${DatabaseAndTableName.historyTable} (
+      grocery_id, grocery_name, consumed_date, next_allowed_date, is_deleted
+    )
+  """;
 }
